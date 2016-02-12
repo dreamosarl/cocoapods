@@ -13,8 +13,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/AmazonMobileAds.zip",
-    "sha1": "dc42a47b05ce9df2a23284ac284f3933a53f21a3"
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/AmazonMobileAds.zip"
   },
   "public_header_files": "AmazonAd.framework/**/*.h",
   "frameworks": [
