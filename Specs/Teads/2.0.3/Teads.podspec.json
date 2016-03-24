@@ -23,8 +23,7 @@
     "CoreMedia",
     "CoreTelephony",
     "MediaPlayer",
-    "SystemConfiguration",
-    "libxml2"
+    "SystemConfiguration"
   ],
   "ios": {
     "vendored_frameworks": "TeadsSDK.framework",

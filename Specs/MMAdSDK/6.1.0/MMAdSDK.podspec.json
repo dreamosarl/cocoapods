@@ -27,7 +27,6 @@
     "EventKit",
     "EventKitUI",
     "Foundation",
-    "libxml2",
     "MediaPlayer",
     "MessageUI",
     "StoreKit",
