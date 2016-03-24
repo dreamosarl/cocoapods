@@ -13,11 +13,18 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/TeadsSDK-V2.0.3.zip"
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/TeadsSDK.zip"
   },
   "public_header_files": "TeadsSDK.framework/**/*.h",
   "frameworks": [
-    "AdSupport"
+    "AdSupport",
+    "AVFoundation",
+    "CoreLocation",
+    "CoreMedia",
+    "CoreTelephony",
+    "MediaPlayer",
+    "SystemConfiguration",
+    "libxml2"
   ],
   "ios": {
     "vendored_frameworks": "TeadsSDK.framework",

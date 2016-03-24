@@ -1,0 +1,42 @@
+{
+  "name": "MMAdSDK",
+  "version": "6.1.0",
+  "summary": "MMAdSDK - summary",
+  "description": "MMAdSDK - description",
+  "homepage": "http://mmedia.com/resources/sdk-api/",
+  "license": {
+    "type": "Copyright",
+    "text": "(c) 2016, MMAdSDK. All Rights Reserved."
+  },
+  "authors": "Mathieu Viel",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/MMAdSDK.zip"
+  },
+  "public_header_files": "MMAdSDK.framework/**/*.h",
+  "frameworks": [
+    "AdSupport",
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreBluetooth",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreTelephony",
+    "EventKit",
+    "EventKitUI",
+    "Foundation",
+    "libxml2",
+    "MediaPlayer",
+    "MessageUI",
+    "StoreKit",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "ios": {
+    "vendored_frameworks": "MMAdSDK.framework"
+  },
+  "preserve_paths": "MMAdSDK.framework",
+  "requires_arc": true
+}
