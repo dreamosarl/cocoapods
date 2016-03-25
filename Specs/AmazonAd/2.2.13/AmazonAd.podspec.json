@@ -1,8 +1,8 @@
 {
-  "name": "AmazonAds",
+  "name": "AmazonAd",
   "version": "2.2.13",
-  "summary": "Amazon Ads - summary",
-  "description": "Amazon Ads - description",
+  "summary": "AmazonAd - summary",
+  "description": "AmazonAd - description",
   "homepage": "https://developer.amazon.com/public/resources/development-tools/sdk",
   "license": {
     "type": "Copyright",
@@ -13,7 +13,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/AmazonAds.zip"
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/AmazonAd.zip"
   },
   "public_header_files": "AmazonAd.framework/**/*.h",
   "frameworks": [
