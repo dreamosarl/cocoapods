@@ -1,0 +1,37 @@
+{
+  "name": "SmartAdServer",
+  "version": "6.2",
+  "summary": "SmartAdServer - summary",
+  "description": "SmartAdServer - description",
+  "homepage": "http://help.smartadserver.com/",
+  "authors": "Mathieu Viel",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/SmartAdServer.zip"
+  },
+  "public_header_files": "*.h",
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CoreGraphics",
+    "QuartzCore",
+    "CoreLocation",
+    "SystemConfiguration",
+    "MediaPlayer",
+    "CoreMotion",
+    "EventKit",
+    "EventKitUI",
+    "AdSupport",
+    "StoreKit",
+    "CoreMedia",
+    "AVFoundation"
+  ],
+  "ios": {
+    "vendored_libraries": "libSmartAdServer.a",
+    "resources": "sas.bundle"
+  },
+  "preserve_paths": "libSmartAdServer.a",
+  "requires_arc": true
+}

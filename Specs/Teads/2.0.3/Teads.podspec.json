@@ -4,10 +4,6 @@
   "summary": "Teads - summary",
   "description": "Teads - description",
   "homepage": "http://teads.tv/fr/",
-  "license": {
-    "type": "Copyright",
-    "text": "(c) 2016, Teads. All Rights Reserved."
-  },
   "authors": "Mathieu Viel",
   "platforms": {
     "ios": "7.0"

@@ -4,10 +4,6 @@
   "summary": "MMAdSDK - summary",
   "description": "MMAdSDK - description",
   "homepage": "http://mmedia.com/resources/sdk-api/",
-  "license": {
-    "type": "Copyright",
-    "text": "(c) 2016, MMAdSDK. All Rights Reserved."
-  },
   "authors": "Mathieu Viel",
   "platforms": {
     "ios": "7.0"

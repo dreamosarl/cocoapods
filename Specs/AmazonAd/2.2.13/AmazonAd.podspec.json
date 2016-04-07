@@ -4,10 +4,6 @@
   "summary": "AmazonAd - summary",
   "description": "AmazonAd - description",
   "homepage": "https://developer.amazon.com/public/resources/development-tools/sdk",
-  "license": {
-    "type": "Copyright",
-    "text": "(c) 2010-2014, Amazon.com, Inc. or its affiliates. All Rights Reserved."
-  },
   "authors": "Mathieu Viel",
   "platforms": {
     "ios": "7.0"

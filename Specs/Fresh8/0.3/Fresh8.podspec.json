@@ -4,10 +4,6 @@
   "summary": "Fresh8 - summary",
   "description": "Fresh8 - description",
   "homepage": "http://fresh8gaming.com/",
-  "license": {
-    "type": "Copyright",
-    "text": "(c) 2016, Fresh8. All Rights Reserved."
-  },
   "authors": "Mathieu Viel",
   "platforms": {
     "ios": "7.0"
