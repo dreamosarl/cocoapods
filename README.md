@@ -1,2 +1,6 @@
 My custom repository for cocoapods :
-- Amazon Ads
+- Amazon Ad
+- Fresh8
+- Millennial Media
+- Smart AdServer
+- Teads
