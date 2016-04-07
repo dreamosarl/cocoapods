@@ -11,7 +11,6 @@
   "source": {
     "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/SmartAdServer.zip"
   },
-  "public_header_files": "headers/*.h",
   "frameworks": [
     "Foundation",
     "UIKit",
@@ -30,6 +29,7 @@
   ],
   "ios": {
     "vendored_libraries": "libSmartAdServer.a",
+    "source_files": "headers/*.h",
     "resources": "sas.bundle"
   },
   "preserve_paths": "libSmartAdServer.a",
