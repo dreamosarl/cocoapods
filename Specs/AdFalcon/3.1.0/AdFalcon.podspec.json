@@ -1,0 +1,24 @@
+{
+  "name": "AdFalcon",
+  "version": "3.1.0",
+  "summary": "AdFalcon - summary",
+  "description": "AdFalcon - description",
+  "homepage": "http://www.adfalcon.com/",
+  "authors": "Mathieu Viel",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/AdFalcon.zip"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "ios": {
+    "vendored_libraries": "libAdFalconSDK3.1.0.a",
+    "source_files": "headers/*.h"
+  },
+  "preserve_paths": "libAdFalconSDK3.1.0.a",
+  "requires_arc": true
+}
