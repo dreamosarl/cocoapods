@@ -9,7 +9,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/ADM.zip"
+    "http": "https://github.com/kokteyldev/mediation.iosPod/raw/master/ADMSDK/ADMSDKPod/ADMSDKPod.zip"
   },
   "frameworks": [
     "Foundation",
