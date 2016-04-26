@@ -1,5 +1,5 @@
 {
-  "name": "Admost",
+  "name": "ADM",
   "version": "1.0.0",
   "summary": "ADMStatic Library",
   "description": "ADMStatic is for mediating ads from different ad networks",
@@ -9,7 +9,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/Admost.zip"
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/ADM.zip"
   },
   "frameworks": [
     "Foundation",
