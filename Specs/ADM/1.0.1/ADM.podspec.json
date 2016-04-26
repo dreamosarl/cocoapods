@@ -13,8 +13,7 @@
   },
   "frameworks": [
     "Foundation",
-    "UIKit",
-    "CoreMedia"
+    "UIKit"
   ],
   "ios": {
     "vendored_libraries": "libADMStaticLib.a",
