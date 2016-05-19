@@ -24,7 +24,6 @@
     "EventKit",
     "EventKitUI",
     "Foundation",
-    "libxml2",
     "MediaPlayer",
     "MessageUI",
     "StoreKit",
@@ -35,5 +34,8 @@
     "vendored_frameworks": "MMAdSDK.framework"
   },
   "preserve_paths": "MMAdSDK.framework",
-  "requires_arc": true
+  "requires_arc": true,
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"$(SDKROOT)/usr/include/libxml2\""
+  }
 }
