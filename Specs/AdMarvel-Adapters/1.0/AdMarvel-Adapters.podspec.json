@@ -1,0 +1,55 @@
+{
+  "name": "AdMarvel-Adapters",
+  "version": "1.0",
+  "summary": "AdMarvel-Adapters",
+  "description": "",
+  "homepage": "http://www.admarvel.com",
+  "authors": "Mathieu Viel",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/AdMarvel-Adapters.zip"
+  },
+  "frameworks": [
+    "Accounts",
+    "AdSupport",
+    "AssetsLibrary",
+    "AudioToolbox",
+    "AVFoundation",
+    "CFNetwork",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreImage",
+    "CoreMedia",
+    "CoreMotion",
+    "CoreTelephony",
+    "EventKit",
+    "EventKitUI",
+    "Foundation",
+    "iAd",
+    "MediaPlayer",
+    "MessageUI",
+    "MobileCoreServices",
+    "QuartzCore",
+    "Security",
+    "Social",
+    "StoreKit",
+    "SystemConfiguration",
+    "UIKit",
+    "WebKit"
+  ],
+  "libraries": [
+    "stdc++",
+    "xml2",
+    "z"
+  ],
+  "ios": {
+    "vendored_libraries": "libOperaMediaworksGoogleAdapters.a"
+  },
+  "preserve_paths": "libOperaMediaworksGoogleAdapters.a",
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  }
+}
