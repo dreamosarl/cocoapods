@@ -42,16 +42,10 @@
     "z"
   ],
   "ios": {
-    "vendored_libraries": [
-      "libAdMarvelSDK.a",
-      "libOperaMediaworksGoogleAdapters.a"
-    ],
+    "vendored_libraries": "libAdMarvelSDK.a",
     "source_files": "headers/*.h"
   },
-  "preserve_paths": [
-    "libAdMarvelSDK.a",
-    "libOperaMediaworksGoogleAdapters.a"
-  ],
+  "preserve_paths": "libAdMarvelSDK.a",
   "requires_arc": true,
   "pod_target_xcconfig": {
     "ENABLE_BITCODE": "NO"
