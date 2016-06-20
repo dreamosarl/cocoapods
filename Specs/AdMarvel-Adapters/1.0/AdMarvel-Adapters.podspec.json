@@ -45,7 +45,8 @@
     "z"
   ],
   "ios": {
-    "vendored_libraries": "libOperaMediaworksGoogleAdapters.a"
+    "vendored_libraries": "libOperaMediaworksGoogleAdapters.a",
+    "source_files": "headers/*.h"
   },
   "preserve_paths": "libOperaMediaworksGoogleAdapters.a",
   "requires_arc": true,
