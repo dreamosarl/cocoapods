@@ -1,0 +1,25 @@
+{
+  "name": "Mobile360SDK",
+  "version": "1.3.4",
+  "summary": "Mobile360SDK",
+  "description": "Mobile360SDK",
+  "homepage": "https://improvedigital.atlassian.net/wiki/display/UG/iOS+360SDK+v1.2",
+  "authors": "Mathieu Viel",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/Mobile360SDK_1.3.4.zip"
+  },
+  "public_header_files": "Mobile360SDK.framework/**/*.h",
+  "frameworks": [
+    "MessageUI",
+    "CoreTelephony",
+    "AVFoundation"
+  ],
+  "ios": {
+    "vendored_frameworks": "Mobile360SDK.framework"
+  },
+  "preserve_paths": "Mobile360SDK.framework",
+  "requires_arc": true
+}
