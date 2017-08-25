@@ -1,4 +1,3 @@
 My custom repository for cocoapods :
-- AdMarvel
+- Frehs8
 - Mobile360 (improve digital)
-- Smart AdServer
