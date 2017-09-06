@@ -1,9 +1,9 @@
 {
-  "name": "Mobile360SDK",
+  "name": "DreamoMobile360SDK",
   "version": "1.3.4",
-  "summary": "Mobile360SDK",
-  "description": "Mobile360SDK",
-  "homepage": "https://improvedigital.atlassian.net/wiki/display/UG/iOS+360SDK+v1.2",
+  "summary": "DreamoMobile360SDK",
+  "description": "DreamoMobile360SDK",
+  "homepage": "",
   "authors": "Mathieu Viel",
   "platforms": {
     "ios": "7.0"

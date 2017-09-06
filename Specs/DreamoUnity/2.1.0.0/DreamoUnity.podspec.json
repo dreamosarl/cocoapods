@@ -1,0 +1,25 @@
+{
+  "name": "DreamoUnity",
+  "version": "2.1.0.0",
+  "summary": "DreamoUnity",
+  "description": "DreamoUnity",
+  "homepage": "",
+  "authors": "Mathieu Viel",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/UnityAdapter-2.1.0.0"
+  },
+  "public_header_files": "UnityAdapter.framework/**/*.h",
+  "frameworks": [
+    "MessageUI",
+    "CoreTelephony",
+    "AVFoundation"
+  ],
+  "ios": {
+    "vendored_frameworks": "UnityAdapter.framework"
+  },
+  "preserve_paths": "UnityAdapter.framework",
+  "requires_arc": true
+}
