@@ -9,7 +9,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/UnityAdapter-2.1.0.0"
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/UnityAdapter-2.1.0.0.zip"
   },
   "public_header_files": "UnityAdapter.framework/**/*.h",
   "frameworks": [
