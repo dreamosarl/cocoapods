@@ -1,0 +1,25 @@
+{
+  "name": "DreamoBlueKai",
+  "version": "3.0.2",
+  "summary": "DreamoBlueKai",
+  "description": "DreamoBlueKai",
+  "homepage": "",
+  "authors": "Mathieu Viel",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/BlueKai-3.0.2.zip"
+  },
+  "public_header_files": "*.h",
+  "frameworks": [
+    "SystemConfiguration",
+    "AdSupport"
+  ],
+  "ios": {
+    "vendored_libraries": "libBlueKai.a",
+    "source_files": "*.h"
+  },
+  "preserve_paths": "libBlueKai.a",
+  "requires_arc": true
+}
