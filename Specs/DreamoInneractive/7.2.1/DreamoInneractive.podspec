@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 	DESC
 	spec.homepage = 'http://developer.inner-active.com/v1.0/docs/integrating-ios-sdk'
 	spec.license = { :type => 'Copyright', :text => 'Copyright 2018 Fyber, All rights reserved.' }
-	spec.source = { :http => 'https://github.com/dreamosarl/cocoapods/raw/master/Zip/InneractiveAdSDK-iOS-7.2.1.zip', }
+	spec.source = { :http => 'https://github.com/dreamosarl/cocoapods/raw/master/Zip/InneractiveAdSDK-iOS-7.2.1.zip' }
 
 	spec.platform = :ios
 
