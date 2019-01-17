@@ -26,19 +26,19 @@ Pod::Spec.new do |spec|
 	spec.subspec 'IASDKMRAID' do |display|
 		display.name ='IASDKMRAID'
 		display.vendored_frameworks = 'IASDKMRAID/IASDKMRAID.framework'
-		display.ios.dependency 'InneractiveAdSDK/IASDKCore'
+		display.ios.dependency 'DreamoInneractive/IASDKCore'
 	end
 
 	spec.subspec 'IASDKVideo' do |video|
 	    video.name ='IASDKVideo'
 	    video.vendored_frameworks = 'IASDKVideo/IASDKVideo.framework'
-		video.ios.dependency 'InneractiveAdSDK/IASDKCore'
+		video.ios.dependency 'DreamoInneractive/IASDKCore'
 	end
 
 	spec.subspec 'IASDKNative' do |native|
 	    native.name ='IASDKNative'
 	    native.vendored_frameworks = 'IASDKNative/IASDKNative.framework'
-		native.ios.dependency 'InneractiveAdSDK/IASDKCore'
-		native.ios.dependency 'InneractiveAdSDK/IASDKVideo'
+		native.ios.dependency 'DreamoInneractive/IASDKCore'
+		native.ios.dependency 'DreamoInneractive/IASDKVideo'
 	end
 end
