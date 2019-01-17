@@ -1,0 +1,22 @@
+{
+  "name": "DreamoInneractive",
+  "version": "7.2.1",
+  "summary": "DreamoInneractive",
+  "description": "DreamoInneractive",
+  "homepage": "",
+  "authors": "Mathieu Viel",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/InneractiveAdSDK-iOS-7.2.1.zip"
+  },
+  "public_header_files": "*.h",
+  "frameworks": [
+    "SystemConfiguration", "CoreGraphics", "EventKit", "EventKitUI", "MediaPlayer", "MessageUI", "CoreTelephony", "StoreKit", "AdSupport", "AVFoundation", "CoreMedia", "WebKit"
+  ],
+  "ios": {
+    "source_files": "*.h"
+  },
+  "requires_arc": true
+}
