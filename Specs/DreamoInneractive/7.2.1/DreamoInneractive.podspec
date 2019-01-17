@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-	spec.name ='InneractiveAdSDK'
+	spec.name ='DreamoInneractive'
 	spec.version = '7.2.1'
 	spec.authors = 'Fyber'
 	spec.summary = 'Fyber VAMP SDK'
