@@ -21,28 +21,28 @@
 			    "SystemConfiguration", "CoreGraphics", "EventKit", "EventKitUI", "MediaPlayer", "MessageUI", "CoreTelephony", "StoreKit", "AdSupport", "AVFoundation", "CoreMedia", "WebKit"
 			  ],
 				"source_files": "IASDKCore/SwiftIntegration/IASDKCore-Bridging-Header.h"
-		  },
+		  }
     },
 		{
       "name": "IASDKMRAID",
 			"ios": {
 		    "vendored_libraries": "IASDKMRAID/IASDKMRAID.framework",
 		    "dependency": "InneractiveAdSDK/IASDKCore"
-		  },
+		  }
     },
 		{
       "name": "IASDKVideo",
 			"ios": {
 		    "vendored_libraries": "IASDKVideo/IASDKVideo.framework",
 		    "dependency": "InneractiveAdSDK/IASDKCore"
-		  },
+		  }
     },
 		{
       "name": "IASDKNative",
 			"ios": {
 		    "vendored_libraries": "IASDKNative/IASDKNative.framework",
 		    "dependency": "InneractiveAdSDK/IASDKCore"
-		  },
+		  }
     }
 	]
 }
