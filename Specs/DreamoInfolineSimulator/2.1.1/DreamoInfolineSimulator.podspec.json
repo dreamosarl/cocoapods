@@ -1,0 +1,24 @@
+{
+  "name": "DreamoInfolineSimulator",
+  "version": "2.1.1",
+  "summary": "DreamoInfolineSimulator",
+  "description": "DreamoInfolineSimulator",
+  "homepage": "",
+  "authors": "Mathieu Viel",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/DreamoInfolineSimulator-2.1.1.zip"
+  },
+  "public_header_files": "INFOnlineLibrary.framework/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "AdSupport"
+  ],
+  "ios": {
+    "vendored_frameworks": "INFOnlineLibrary.framework"
+  },
+  "preserve_paths": "INFOnlineLibrary.framework",
+  "requires_arc": true
+}
