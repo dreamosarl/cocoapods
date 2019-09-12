@@ -14,10 +14,9 @@ Pod::Spec.new do |spec|
 	spec.platform = :ios
 
 	spec.subspec 'Core' do |core|
-		core.name ='Core'
+        core.name ='Core'
 		core.vendored_frameworks = 'Core/INFOnlineLibrary.framework'
-		core.ios.frameworks = 'UIKit', AdSupport'
-		core.ios.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+		core.ios.frameworks = 'UIKit', 'AdSupport'
 	end
     
 	spec.subspec 'Extras' do |extras|
