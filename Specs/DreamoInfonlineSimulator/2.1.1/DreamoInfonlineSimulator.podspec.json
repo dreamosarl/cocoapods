@@ -11,7 +11,7 @@
   "source": {
     "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/DreamoInfonlineSimulator-2.1.1.zip"
   },
-  "public_header_files": "INFOnlineLibrary.framework/**/*.h",
+  "public_header_files": "**/**/*.h",
   "frameworks": [
     "UIKit",
     "AdSupport"
