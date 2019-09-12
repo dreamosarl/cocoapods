@@ -1,15 +1,15 @@
 {
-  "name": "DreamoInfoline",
+  "name": "DreamoInfonline",
   "version": "2.1.1",
-  "summary": "DreamoInfoline",
-  "description": "DreamoInfoline",
+  "summary": "DreamoInfonline",
+  "description": "DreamoInfonline",
   "homepage": "",
   "authors": "Mathieu Viel",
   "platforms": {
     "ios": "8.0"
   },
   "source": {
-    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/DreamoInfoline-2.1.1.zip"
+    "http": "https://github.com/dreamosarl/cocoapods/raw/master/Zip/DreamoInfonline-2.1.1.zip"
   },
   "public_header_files": "INFOnlineLibrary.framework/**/*.h",
   "frameworks": [
