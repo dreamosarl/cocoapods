@@ -1,4 +1,5 @@
 Pod::Spec.new do |spec|
+
 	spec.name ='DreamoInfonlineSimulator'
 	spec.version = '2.1.1'
 	spec.authors = 'DreamoInfonlineSimulator'
@@ -16,12 +17,12 @@ Pod::Spec.new do |spec|
 		core.name ='Core'
 		core.vendored_frameworks = 'Core/INFOnlineLibrary.framework'
 		core.ios.frameworks = 'UIKit', AdSupport'
-		core.ios.source_files = 'INFOnlineLibrary.framework/*.h'
 		core.ios.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 	end
-
+    
 	spec.subspec 'Extras' do |extras|
 		extras.name ='Extras'
 		extras.ios.source_files = 'Extras/*.h'
-	end
+	end 
+    
 end
