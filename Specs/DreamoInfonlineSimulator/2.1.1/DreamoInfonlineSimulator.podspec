@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 		core.name ='Core'
 		core.vendored_frameworks = 'Core/INFOnlineLibrary.framework'
 		core.ios.frameworks = 'UIKit', AdSupport'
-		core.ios.source_files = 'INFOnlineLibrary.framework/**/*.h'
+		core.ios.source_files = 'INFOnlineLibrary.framework/*.h'
 		core.ios.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 	end
 
